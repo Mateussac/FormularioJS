@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <script src="FJS.js"></script>
+</head>
+<body>
+    <div>
+    <center> <h1>Formulário</h1> </center>
+    </div>
+    <div>
+        <form>
+            <fieldset>
+            <legend>Sobre a pessoa</legend>
+            <div>
+                <label for="id_nome">Nome</label>
+                <input type="text"  id="id_nome" maxlength="105" 
+                required placeholder="Digite o Nome">
+            </div>
+
+            <div>
+                <label for="id_data">Data de Nacimento</label>
+                <input type="date" id="id_data" required>
+            </div>
+
+            <button type="submit" value="Salvar" onclick=" salvar() " name="save">Salvar</button>
+            
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
